@@ -27,5 +27,5 @@ handler404 = custom_404
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('gestion/', include('gestion.urls')),
-    path('2025/', include('pedidos.urls'))
+    path('', include('pedidos.urls'))
 ]

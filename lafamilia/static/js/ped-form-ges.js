@@ -137,7 +137,7 @@ $(document).ready(function() {
 
     function enviarPedidoAlBackend(pedidoData) {
         $.ajax({
-            url: '/pedidos/crear/',
+            url: '/2025/crear/',
             method: 'POST',
             data: JSON.stringify(pedidoData),
             contentType: 'application/json',

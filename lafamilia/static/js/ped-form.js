@@ -141,7 +141,7 @@ $(document).ready(function() {
 
     function enviarPedidoAlBackend(pedidoData) {
         $.ajax({
-            url: '/pedidos/crear/',
+            url: 'pedidos/crear/',
             method: 'POST',
             data: JSON.stringify(pedidoData),
             contentType: 'application/json',
